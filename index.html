@@ -1,11 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
-  <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO META -->
+    <title>PKC Caterers | Best Wedding & Event Caterers in Pathanapuram, Kerala</title>
+    <meta name="description" content="PKC Caterers offers premium wedding, corporate and event catering services in Pathanapuram and across Kerala. Quality food, professional service, trusted experience.">
+    <meta name="keywords" content="PKC Caterers, caterers in Pathanapuram, wedding catering Kerala, event caterers Kerala, best caterers in Kerala">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="PKC Caterers | Catering Services in Kerala">
+    <meta property="og:description" content="Professional wedding and event catering services across Kerala.">
+    <meta property="og:type" content="website">
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "PKC Caterers",
+      "url": "https://pkccaterers.com",
+      "telephone": "+91-XXXXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pathanapuram",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+
+    <style>
+        body {font-family: Arial, sans-serif; margin:0; line-height:1.6; color:#333;}
+        header {background:#8b0000; color:#fff; padding:20px; text-align:center;}
+        nav a {color:#fff; margin:0 10px; text-decoration:none; font-weight:bold;}
+        section {padding:40px 20px; max-width:1100px; margin:auto;}
+        h1,h2 {color:#8b0000;}
+        .services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+        .card {border:1px solid #ddd; padding:20px; border-radius:6px;}
+        .cta {background:#f4f4f4; text-align:center;}
+        footer {background:#222; color:#fff; text-align:center; padding:20px;}
+    </style>
 </head>
 <body>
-  <h1>Hello 👋</h1>
-  <p>This is my first static website using GitHub.</p>
+
+<header>
+    <h1>PKC Caterers</h1>
+    <p>Best Wedding & Event Catering Services in Pathanapuram, Kerala</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About PKC Caterers</h2>
+    <p>PKC Caterers is a trusted name in catering services in Pathanapuram and across Kerala. With years of experience, we specialize in delivering delicious food, professional service, and memorable dining experiences for weddings, corporate events, and family functions.</p>
+</section>
+
+<section id="services">
+    <h2>Our Catering Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Wedding Catering</h3>
+            <p>Traditional Kerala wedding feasts and customized menus for your special day.</p>
+        </div>
+        <div class="card">
+            <h3>Corporate Catering</h3>
+            <p>Professional catering solutions for meetings, conferences, and corporate events.</p>
+        </div>
+        <div class="card">
+            <h3>Event Catering</h3>
+            <p>Birthdays, receptions, parties, and all types of events handled with care.</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <p>Photos of our wedding catering, buffet setups, and special events will be showcased here.</p>
+</section>
+
+<section id="contact" class="cta">
+    <h2>Contact PKC Caterers</h2>
+    <p><strong>Location:</strong> Pathanapuram, Kerala</p>
+    <p><strong>Phone:</strong> +91-9847070522 , 9495791522</p>
+    <p><strong>Email:</strong> info@pkccaterers.com</p>
+</section>
+
+<footer>
+    <p>© 2025 PKC Caterers | Catering Services in Kerala</p>
+</footer>
+
 </body>
 </html>
